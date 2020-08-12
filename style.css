@@ -1,0 +1,76 @@
+:root {
+    --header-bg: #242423;
+    --body-bg: #333533;
+    --form-bg: #cfdbd5; 
+    --form-color: #e8eddf; 
+    --form-padding: 2em;
+    --form-display: grid;
+}
+
+
+body {
+  background:  var(--body-bg);  
+  margin: 0; 
+}
+
+header {
+  background: var(--header-bg); 
+  padding-top: 3em; 
+  display: flex; 
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+
+h1 {
+   color: var(--form-color);
+   font-family: 'Open Sans', sans-serif;
+   margin-right: 5px;
+}
+
+h3 {
+   font-family: 'Open Sans', sans-serif; 
+   color: rgb(182, 177, 177);  
+} 
+
+form {
+ 
+   background: var(--form-bg);
+   padding: var(--form-padding);
+   display: var(--form-display);
+   margin: 0 20%;
+   
+}
+
+form label {
+   margin-bottom:  var(--form-padding);
+   font-family: 'Open Sans', sans-serif;
+}
+
+form input {
+   color: black;
+   margin-bottom: var(--form-padding) 0;
+   padding: 1em;
+   font-family: 'Open Sans', sans-serif;
+ 
+
+}
+
+#btn {
+ padding: calc(var(--form-padding) - 1em);
+ margin-top: calc(var(--form-padding) - 1em);
+ font-family: 'Open Sans', sans-serif;
+}
+
+.result-post {
+  display: flex;
+  justify-content: center;
+  align-content: center; 
+  align-items: center;
+  font-family: Arial, Helvetica, sans-serif;
+  margin: 0 20%;
+}
+
+.clear {
+   color: white;
+}
